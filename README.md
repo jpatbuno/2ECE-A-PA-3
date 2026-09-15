@@ -5,7 +5,7 @@
 This repository contains the Jupyter Notebook solution for Experiment 3, demonstrating data loading, positional and label-based indexing, Boolean filtering, and DataFrame subsetting using Pandas on the `cars.csv` dataset. As per the laboratory instructions, no external Python libraries other than Pandas were used.
 
 ## A. Positional and Label-Based Slicing
-Loads `cars.csv` into a DataFrame named `cars`, displays its shape and column names, and extracts rows 6 through 10[cite: 4, 5]. Displays the columns `Model`, `mpg`, `cyl`, `hp`, and `gear` for this subset.
+Loads `cars.csv` into a DataFrame named `cars`, displays its shape and column names, and extracts rows 6 through 10. Displays the columns `Model`, `mpg`, `cyl`, `hp`, and `gear` for this subset.
 * **Technique Used:** Shape inspection (`cars.shape`), column listing (`list(cars.columns)`), positional row slicing with `.iloc`, and label-based column indexing with `.loc"`.
 
 ## B. Model Lookup
